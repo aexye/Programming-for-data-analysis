@@ -4,7 +4,7 @@ from scipy.sparse import data
 from sklearn.cluster import KMeans, DBSCAN
 from sklearn.model_selection import train_test_split
 
-path = 'P:/b.balcerzak/2020/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_05/Zadanie_domowe/trumptweets_data.csv'
+path = 'P:/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_05/Zadanie_domowe/trumptweets_data.csv'
 #Importing file
 df = pd.read_csv(path, sep=';', index_col=False, decimal=',')
 #Removing two first columns which are strings
