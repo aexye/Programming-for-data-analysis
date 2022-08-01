@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 #Setting path for file
-filename = r'P:/b.balcerzak/2020/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_04/Zadanie_domowe/london_merged.csv'
+filename = r'P:/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_04/Zadanie_domowe/london_merged.csv'
 #Reading file and saving it to dataframe
 model = pd.read_csv(filename, sep=',')
 model['timestamp'] = pd.to_datetime(model.timestamp, format='%Y-%m-%d %H:%M:%S')
