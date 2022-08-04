@@ -14,7 +14,6 @@ model_r = model.drop(columns = 'timestamp')
 #Normalization of data set
 model_r = (model_r-model_r.mean())/model_r.std()
 
-#abc
 #Setting x, y for linear regression
 y = model_r['cnt']
 x = model_r.drop(columns ='cnt')
