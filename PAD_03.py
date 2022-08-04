@@ -4,6 +4,13 @@ import pandas as pd
 filename = r'P:/b.balcerzak/2020/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_03/Zadanie_domowe/bank.csv'
 df = pd.read_csv(filename, sep=';')
 
+/*
+a)	W którym miesiącu dokonano najwięcej połączeń, a w którym najmniej?
+b)	W którym miesiącu średni czas rozmowy był największy?
+c)	Czy wykształcenie przekłada się na posiadane oszczędności? (Kolumna balance)
+d)	Ile lat miała najstarsza osoba będąca w związku małżeńskim, a ile najstarszy singiel?
+*/
+
 #Zadanie1
 #podpunkt a 
 
