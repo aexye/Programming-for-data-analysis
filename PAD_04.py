@@ -4,14 +4,6 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-/*
-a)	W którym miesiącu dokonano najwięcej połączeń, a w którym najmniej?
-b)	W którym miesiącu średni czas rozmowy był największy?
-c)	Czy wykształcenie przekłada się na posiadane oszczędności? (Kolumna balance)
-d)	Ile lat miała najstarsza osoba będąca w związku małżeńskim, a ile najstarszy singiel?
-*/
-
-
 #Setting path for file
 filename = r'P:/INFORMATYKA_ZAOCZNE/SEM_1/PAD/PAD_04/Zadanie_domowe/london_merged.csv'
 #Reading file and saving it to dataframe
@@ -22,7 +14,7 @@ model_r = model.drop(columns = 'timestamp')
 #Normalization of data set
 model_r = (model_r-model_r.mean())/model_r.std()
 
-
+#abc
 #Setting x, y for linear regression
 y = model_r['cnt']
 x = model_r.drop(columns ='cnt')
